@@ -1,0 +1,216 @@
+type (
+
+	Wellocean struct {
+		Resource_reporter_51        bool `json:"/WellOcean/resource_reporter_51"`
+		Roi_recog_15                bool `json:"/WellOcean/roi_recog_15"`
+		Image_processing_21         bool `json:"/WellOcean/image_processing_21"`
+		Object_roi_9                bool `json:"/WellOcean/object_roi_9"`
+		Image_processing_4          bool `json:"/WellOcean/image_processing_4"`
+		Trigger_16                  bool `json:"/WellOcean/roi_trigger_16"`
+		RoiRecog14                  bool `json:"/WellOcean/roi_recog_14"`
+		Image_processing_5          bool `json:"/WellOcean/image_processing_5"`
+		Osk2_master_shell_37        bool `json:"/WellOcean/osk2_master_shell_37"`
+		Osk2_master_shell_42        bool `json:"/WellOcean/osk2_master_shell_42"`
+		Otate_camera_crane_2        bool `json:"/WellOcean/rotate_camera_crane_2"`
+		Roi_trigger_control_info_27 bool `json:"/WellOcean/roi_trigger_control_info_27"`
+		Rotate_camera_status_3 bool `json:"/WellOcean/rotate_camera_status_3"`
+		Osk2_master_shell_36  bool `json:"/WellOcean/osk2_master_shell_36"`
+		Control_info_crane_26 bool `json:"/WellOcean/control_info_crane_26"`
+		Osk2_master_shell_46  bool `json:"/WellOcean/osk2_master_shell_46"`
+		Result_transfer_17    bool `json:"/WellOcean/result_transfer_17"`
+		Osk2_master_shell_49  bool `json:"/WellOcean/osk2_master_shell_49"`
+		Status_monitor_50     bool `json:"/WellOcean/status_monitor_50"`
+		Ui_28                 bool `json:"/WellOcean/ui_28"`
+		Roi_recog_11          bool `json:"/WellOcean/roi_recog_11"`
+		Osk2_master_shell_45  bool `json:"/WellOcean/osk2_master_shell_45"`
+		Osk2_master_shell_48  bool `json:"/WellOcean/osk2_master_shell_48"`
+		Osk2_master_shell_40  bool `json:"/WellOcean/osk2_master_shell_40"`
+		Osk2_master_shell_44  bool `json:"/WellOcean/osk2_master_shell_44"`
+		Roi_recog_25          bool `json:"/WellOcean/roi_recog_25"`
+		Seal_recog_32         bool `json:"/WellOcean/seal_recog_32"`
+		Roi_recog_12          bool `json:"/WellOcean/roi_recog_12"`
+		Object_roi_23         bool `json:"/WellOcean/object_roi_23"`
+		Osk2_master_shell_35  bool `json:"/WellOcean/osk2_master_shell_35"`
+		Select_camera_crane_1 bool `json:"/WellOcean/select_camera_crane_1"`
+		Result_send_18        bool `json:"/WellOcean/result_send_18"`
+		Image_processing_7    bool `json:"/WellOcean/image_processing_7"`
+		Osk2_master_shell_34  bool `json:"/WellOcean/osk2_master_shell_34"`
+		Object_roi_8          bool `json:"/WellOcean/object_roi_8"`
+		Osk2_master_shell_39  bool `json:"/WellOcean/osk2_master_shell_39"`
+		Container_face_29     bool `json:"/WellOcean/container_face_29"`
+		Osk2_master_shell_47 bool `json:"/WellOcean/osk2_master_shell_47"`
+		Osk2_master_shell_43 bool `json:"/WellOcean/osk2_master_shell_43"`
+		Roi_recog_13         bool `json:"/WellOcean/roi_recog_13"`
+		Osk2_master_shell_41 bool `json:"/WellOcean/osk2_master_shell_41"`
+		Object_roi_24        bool `json:"/WellOcean/object_roi_24"`
+		Osk2_master_shell_38 bool `json:"/WellOcean/osk2_master_shell_38"`
+		Image_processing_6   bool `json:"/WellOcean/image_processing_6"`
+		Ui_19                bool `json:"/WellOcean/ui_19"`
+		Container_location_crane_30 bool `json:"/WellOcean/container_location_crane_30"`
+		Container_roi_31     bool `json:"/WellOcean/container_roi_31"`
+		Image_processing_22  bool `json:"/WellOcean/image_processing_22"`
+		Roi_recog_10         bool `json:"/WellOcean/roi_recog_10"`
+	}
+	Cpu struct {
+		Cpu_usage string `json:"cpu_usage"`
+		Cpu_load string `json:"cpu_load"`
+		Cpu_core_num int `json:"cpu_core_num"`
+	}
+	Disk struct{
+		Disk_cv_io_read string `json:"disk_cv_io_read"`
+		Disk_root_io_read string `json:"disk_root_io_read"`
+		Disk_cv_io_ms string `json:"disk_cv_io_ms"`
+		Disk_root_space string `json:"disk_root_space"`
+		Disk_root_usage string `json:"disk_root_usage"`
+		Disk_cv_io_write string `json:"disk_cv_io_write"`
+		Disk_root_io_write_ops string `json:"disk_root_io_write_ops"`
+		Disk_cv_io_read_ops string `json:"disk_cv_io_read_ops"`
+		Disk_root_io_ms string `json:"disk_root_io_ms"`
+		Disk_root_io_write string `json:"disk_root_io_write"`
+		Disk_root_io_read_ops string `json:"disk_root_io_read_ops"`
+		Disk_cv_io_write_ops string `json:"disk_cv_io_write_ops"`
+		Disk_cv_space string `json:"disk_cv_space"`
+		Disk_cv_usage string `json:"disk_cv_usage"`
+	}
+	Interface struct{
+		uwsgi bool `json:"uwsgi"`
+		result_send bool `json:"result_send"`
+		sender bool `json:"sender"`
+		hik bool `json:"hik"`
+	}
+	Network struct{
+		bond0_in string `json:"bond0_in"`
+		bond0_out string `json:"bond0_out"`
+	}
+	Mem struct{
+		mem_used string `json:"mem_used"`
+		mem_usage string `json:"mem_usage"`
+		mem_size string `json:"mem_size"`
+		swap_usage string `json:"swap_usage"`
+		mem_free string `json:"mem_free"`
+	}
+	Gpu struct {
+		gpu_usage_2 string `json:"gpu_usage_2"`
+		gpu_cuda_usage_2 string `json:"gpu_cuda_usage_2"`
+		gpu_usage_1 string `json:"gpu_usage_1"`
+		gpu_mem_1 string `json:"gpu_mem_1"`
+		gpu_mem_2 string `json:"gpu_mem_2"`
+		gpu_temp string `json:"gpu_temp"`
+		gpu_cuda_usage_1 string `json:"gpu_cuda_usage_1"`
+	}
+	Sysproc struct {
+		mysql bool `json:"mysql"`
+		redis bool `json:"redis"`
+		php bool `json:"php"`
+		vsftp bool `json:"vsftp"`
+		nginx bool `json:"nginx"`
+	}
+	Monitor struct{
+		server     Wellocean `json:"wellocean"`
+		cpu        Cpu       `json:"cpu"`
+		disk       Disk      `json:"disk"`
+		Inter_face Interface `json:"interface"`
+	}
+	Timestamp struct {
+		timestamp int `json:"timestamp"`
+	}
+	Server struct {
+		monitor Monitor `json:"monitor"`
+		timestamp Timestamp `json:"timestamp"`
+	}
+	// Camers_info struct {
+	// 	camers_info map [string]bool `json:"camers_info"`
+	// }
+	result struct {
+		servers01 Server `json:"172.90.109.108"`
+		// servers02 Server `json:"172.90.109.109"`
+		// servers03 Server `json:"172.90.109.110"`
+		// servers04 Server `json:"172.90.109.111"`
+		// servers05 Server `json:"172.90.109.112"`
+		// servers06 Server `json:"172.90.109.113"`
+		// servers07 Server `json:"172.90.109.114"`
+		// servers08 Server `json:"172.90.109.115"`
+		// servers09 Server `json:"172.90.109.116"`
+		// servers10 Server `json:"172.90.109.117"`
+		// servers11 Server `json:"172.90.109.118"`
+		Camers_info map [string]bool `json:"camers_info"`
+	}
+)
+
+
+type (
+	wellocean struct {
+		Wellocean_map map[string]bool
+	}
+	cpu struct {
+		Cpu_map map[string]string
+	}
+	disk struct {
+		Disk_map map[string]string
+	}
+	well_interface struct {
+		Well_interface map[string]bool
+	}
+	mem struct {
+		Mem_map map[string]bool
+	}
+	network struct {
+		Network_map map[string]string
+	}
+	gpu struct {
+		Gpu_map map[string]string
+	}
+	sysproc struct {
+		Sysproc_map map[string]bool
+	}
+	monitor struct {
+		Wellocean_m wellocean
+		Cpu_m cpu
+		Disk_m disk
+		Well_interface_m well_interface
+		Network_m network
+		Men_m mem
+		Gpu_m gpu
+		Sysproc_m sysproc
+	}
+)
+func (m *mess) getMessage() map[string]string {
+	strMap := make(map[string]string)
+	for _, ip := range m.ips {
+		if len(m.wellocean[ip]) != 0 {
+			strMap[ip] = "服务器" + ip + "在" + m.times[ip] + "检测到"
+			strMap[ip] = strMap[ip] + "有wellocean程序未运行  "
+		}
+		if len(m.cpu[ip]) != 0 {
+			if len(strMap[ip]) == 0 {
+				strMap[ip] = "服务器" + ip + "在" + m.times[ip] + "检测到"
+			}
+			strMap[ip] = strMap[ip] + "cpu 负载超过90%  "
+		}
+		if len(m.wellInterface[ip]) != 0 {
+			if len(strMap[ip]) == 0 {
+				strMap[ip] = "服务器" + ip + "在" + m.times[ip] + "检测到"
+			}
+			s := tools.StrSliceToStr(m.wellInterface[ip])
+			strMap[ip] = strMap[ip] + "有interface程序未运行:" + s + "  "
+		}
+		if len(m.mem[ip]) != 0 {
+			if len(strMap[ip]) == 0 {
+				strMap[ip] = "服务器" + ip + "在" + m.times[ip] + "检测到"
+			}
+			strMap[ip] = strMap[ip] + "memory使用超过90  "
+		}
+		if len(m.gpu[ip]) != 0 {
+			if len(strMap[ip]) == 0 {
+				strMap[ip] = "服务器" + ip + "在" + m.times[ip] + "检测到"
+			}
+			strMap[ip] = strMap[ip] + "gpu usage is very high  "
+		}
+		if len(m.sysproc[ip]) != 0 {
+			if len(strMap[ip]) == 0 {
+				strMap[ip] = "服务器" + ip + "在" + m.times[ip] + "检测到"
+			}
+			s := tools.StrSliceToStr(m.sysproc[ip])
+			strMap[ip] = strMap[ip] + "有sysproc程序未运行:" + s + "  "
+		}
+	}

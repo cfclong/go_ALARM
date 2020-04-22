@@ -1,0 +1,26 @@
+{
+  "high":
+  {
+    "swap_usage":80,
+    "mem_usage":90,
+    "cpu_load":90,
+    "cpu_usage":95,
+    "gpu_usage_1": 75,
+    "gpu_usage_2": 75,
+    "gpu_temp" : 95,
+    "disk_root_usage": 85,
+    "disk_cv_usage": 95
+  },
+  "mailTo": [
+    "fuchang.chen@westwell-lab.com"
+  ],
+  "mailToTmp": [
+    "fuchang.chen@westwell-lab.com",
+    "yinghao.li@westwell-lab.com",
+    "yumeng.hu@westwell-lab.com",
+    "geiliang.yang@westwell-lab.com",
+    "wenfu.yu@westwell-lab.com",
+    "mingyu.li@westwell-lab.com",
+    "donotreply@cspadt.ae"
+  ]
+}

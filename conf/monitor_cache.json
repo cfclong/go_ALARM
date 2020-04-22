@@ -1,0 +1,1552 @@
+{
+  "172.90.109.108": {
+    "monitor": {
+      "cpu": {
+        "cpu_core_num": 48,
+        "cpu_load": "90.4917%",
+        "cpu_usage": "51.8%"
+      },
+      "disk": {
+        "disk_cv_io_ms": "0ms",
+        "disk_cv_io_read": "0KB/s",
+        "disk_cv_io_read_ops": "0ops/s",
+        "disk_cv_io_write": "0KB/s",
+        "disk_cv_io_write_ops": "0ops/s",
+        "disk_cv_space": "3371G",
+        "disk_cv_usage": "90.3%",
+        "disk_root_io_ms": "0ms",
+        "disk_root_io_read": "0KB/s",
+        "disk_root_io_read_ops": "0ops/s",
+        "disk_root_io_write": "0KB/s",
+        "disk_root_io_write_ops": "0ops/s",
+        "disk_root_space": "265G",
+        "disk_root_usage": "38.5%"
+      },
+      "gpu": {
+        "gpu_cuda_usage_1": "8.4",
+        "gpu_cuda_usage_2": "8.4",
+        "gpu_mem_1": "8112.0MB",
+        "gpu_mem_2": "8112.0MB",
+        "gpu_temp": "75",
+        "gpu_usage_1": "0.0%",
+        "gpu_usage_2": "0.0%"
+      },
+      "interface": {
+        "hik": true,
+        "result_send": true,
+        "sender": true,
+        "uwsgi": true
+      },
+      "log": {
+        "CraneDataSender": {
+          "log_error_key": [],
+          "log_status": 0
+        },
+        "GetPLC_siemens": {
+          "log_error_key": [],
+          "log_status": 0
+        },
+        "OSK": {
+          "log_error_key": [],
+          "log_status": 0
+        }
+      },
+      "mem": {
+        "mem_free": "25644.0MB",
+        "mem_size": "64305.0MB",
+        "mem_usage": "40.68%",
+        "mem_used": "37370.0MB",
+        "swap_usage": "12.7%"
+      },
+      "network": {
+        "bond0_in": "1807.93KB/s",
+        "bond0_out": "41.84KB/s"
+      },
+      "sysproc": {
+        "mysql": true,
+        "nginx": true,
+        "php": true,
+        "redis": true,
+        "vsftp": true
+      },
+      "wellocean": {
+        "/WellOcean/container_face_29": true,
+        "/WellOcean/container_location_crane_30": true,
+        "/WellOcean/container_roi_31": true,
+        "/WellOcean/control_info_crane_26": true,
+        "/WellOcean/image_processing_21": true,
+        "/WellOcean/image_processing_22": true,
+        "/WellOcean/image_processing_4": true,
+        "/WellOcean/image_processing_5": true,
+        "/WellOcean/image_processing_6": true,
+        "/WellOcean/image_processing_7": true,
+        "/WellOcean/object_roi_23": true,
+        "/WellOcean/object_roi_24": true,
+        "/WellOcean/object_roi_8": true,
+        "/WellOcean/object_roi_9": true,
+        "/WellOcean/osk2_master_shell_34": true,
+        "/WellOcean/osk2_master_shell_35": true,
+        "/WellOcean/osk2_master_shell_36": true,
+        "/WellOcean/osk2_master_shell_37": true,
+        "/WellOcean/osk2_master_shell_38": true,
+        "/WellOcean/osk2_master_shell_39": true,
+        "/WellOcean/osk2_master_shell_40": true,
+        "/WellOcean/osk2_master_shell_41": true,
+        "/WellOcean/osk2_master_shell_42": true,
+        "/WellOcean/osk2_master_shell_43": true,
+        "/WellOcean/osk2_master_shell_44": true,
+        "/WellOcean/osk2_master_shell_45": true,
+        "/WellOcean/osk2_master_shell_46": true,
+        "/WellOcean/osk2_master_shell_47": true,
+        "/WellOcean/osk2_master_shell_48": true,
+        "/WellOcean/osk2_master_shell_49": true,
+        "/WellOcean/resource_reporter_51": true,
+        "/WellOcean/result_send_18": true,
+        "/WellOcean/result_transfer_17": true,
+        "/WellOcean/roi_recog_10": true,
+        "/WellOcean/roi_recog_11": true,
+        "/WellOcean/roi_recog_12": true,
+        "/WellOcean/roi_recog_13": true,
+        "/WellOcean/roi_recog_14": true,
+        "/WellOcean/roi_recog_15": true,
+        "/WellOcean/roi_recog_25": true,
+        "/WellOcean/roi_trigger_16": true,
+        "/WellOcean/roi_trigger_control_info_27": true,
+        "/WellOcean/rotate_camera_crane_2": true,
+        "/WellOcean/rotate_camera_status_3": true,
+        "/WellOcean/seal_recog_32": true,
+        "/WellOcean/select_camera_crane_1": true,
+        "/WellOcean/status_monitor_50": true,
+        "/WellOcean/ui_19": true,
+        "/WellOcean/ui_28": true
+      }
+    },
+    "timestamp": 1578723238
+  },
+  "172.90.109.109": {
+    "monitor": {
+      "cpu": {
+        "cpu_core_num": 48,
+        "cpu_load": "47.2792%",
+        "cpu_usage": "46.9%"
+      },
+      "disk": {
+        "disk_cv_io_ms": "0ms",
+        "disk_cv_io_read": "0KB/s",
+        "disk_cv_io_read_ops": "0ops/s",
+        "disk_cv_io_write": "0KB/s",
+        "disk_cv_io_write_ops": "0ops/s",
+        "disk_cv_space": "3371G",
+        "disk_cv_usage": "42.0%",
+        "disk_root_io_ms": "0ms",
+        "disk_root_io_read": "0KB/s",
+        "disk_root_io_read_ops": "0ops/s",
+        "disk_root_io_write": "40KB/s",
+        "disk_root_io_write_ops": "2ops/s",
+        "disk_root_space": "236G",
+        "disk_root_usage": "33.599999999999994%"
+      },
+      "gpu": {
+        "gpu_cuda_usage_1": "12.6",
+        "gpu_cuda_usage_2": "12.6",
+        "gpu_mem_1": "8112.0MB",
+        "gpu_mem_2": "8112.0MB",
+        "gpu_temp": "83",
+        "gpu_usage_1": "0.0%",
+        "gpu_usage_2": "0.0%"
+      },
+      "interface": {
+        "hik": true,
+        "result_send": true,
+        "sender": true,
+        "uwsgi": true
+      },
+      "log": {
+        "CraneDataSender": {
+          "log_error_key": [],
+          "log_status": 0
+        },
+        "GetPLC_siemens": {
+          "log_error_key": [],
+          "log_status": 0
+        },
+        "OSK": {
+          "log_error_key": [],
+          "log_status": 0
+        }
+      },
+      "mem": {
+        "mem_free": "38644.0MB",
+        "mem_size": "64305.0MB",
+        "mem_usage": "26.19%",
+        "mem_used": "24063.0MB",
+        "swap_usage": "20.3%"
+      },
+      "network": {
+        "bond0_in": "1825.95KB/s",
+        "bond0_out": "47.30KB/s"
+      },
+      "sysproc": {
+        "mysql": true,
+        "nginx": true,
+        "php": true,
+        "redis": true,
+        "vsftp": true
+      },
+      "wellocean": {
+        "/WellOcean/container_face_29": true,
+        "/WellOcean/container_location_crane_30": true,
+        "/WellOcean/container_roi_31": true,
+        "/WellOcean/control_info_crane_26": true,
+        "/WellOcean/image_processing_21": true,
+        "/WellOcean/image_processing_22": true,
+        "/WellOcean/image_processing_4": true,
+        "/WellOcean/image_processing_5": true,
+        "/WellOcean/image_processing_6": true,
+        "/WellOcean/image_processing_7": true,
+        "/WellOcean/object_roi_23": true,
+        "/WellOcean/object_roi_24": true,
+        "/WellOcean/object_roi_8": true,
+        "/WellOcean/object_roi_9": true,
+        "/WellOcean/osk2_master_shell_34": true,
+        "/WellOcean/osk2_master_shell_35": true,
+        "/WellOcean/osk2_master_shell_36": true,
+        "/WellOcean/osk2_master_shell_37": true,
+        "/WellOcean/osk2_master_shell_38": true,
+        "/WellOcean/osk2_master_shell_39": true,
+        "/WellOcean/osk2_master_shell_40": true,
+        "/WellOcean/osk2_master_shell_41": true,
+        "/WellOcean/osk2_master_shell_42": true,
+        "/WellOcean/osk2_master_shell_43": true,
+        "/WellOcean/osk2_master_shell_44": true,
+        "/WellOcean/osk2_master_shell_45": true,
+        "/WellOcean/osk2_master_shell_46": true,
+        "/WellOcean/osk2_master_shell_47": true,
+        "/WellOcean/osk2_master_shell_48": true,
+        "/WellOcean/osk2_master_shell_49": true,
+        "/WellOcean/resource_reporter_51": true,
+        "/WellOcean/result_send_18": true,
+        "/WellOcean/result_transfer_17": true,
+        "/WellOcean/roi_recog_10": true,
+        "/WellOcean/roi_recog_11": true,
+        "/WellOcean/roi_recog_12": true,
+        "/WellOcean/roi_recog_13": true,
+        "/WellOcean/roi_recog_14": true,
+        "/WellOcean/roi_recog_15": true,
+        "/WellOcean/roi_recog_25": true,
+        "/WellOcean/roi_trigger_16": true,
+        "/WellOcean/roi_trigger_control_info_27": true,
+        "/WellOcean/rotate_camera_crane_2": true,
+        "/WellOcean/rotate_camera_status_3": true,
+        "/WellOcean/seal_recog_32": true,
+        "/WellOcean/select_camera_crane_1": true,
+        "/WellOcean/status_monitor_50": true,
+        "/WellOcean/ui_19": true,
+        "/WellOcean/ui_28": true
+      }
+    },
+    "timestamp": 1578723238
+  },
+  "172.90.109.110": {
+    "monitor": {
+      "cpu": {
+        "cpu_core_num": 48,
+        "cpu_load": "62.0958%",
+        "cpu_usage": "54.599999999999994%"
+      },
+      "disk": {
+        "disk_cv_io_ms": "0ms",
+        "disk_cv_io_read": "0KB/s",
+        "disk_cv_io_read_ops": "0ops/s",
+        "disk_cv_io_write": "4920KB/s",
+        "disk_cv_io_write_ops": "22ops/s",
+        "disk_cv_space": "3371G",
+        "disk_cv_usage": "44.099999999999994%",
+        "disk_root_io_ms": "0ms",
+        "disk_root_io_read": "0KB/s",
+        "disk_root_io_read_ops": "0ops/s",
+        "disk_root_io_write": "40KB/s",
+        "disk_root_io_write_ops": "2ops/s",
+        "disk_root_space": "236G",
+        "disk_root_usage": "35.0%"
+      },
+      "gpu": {
+        "gpu_cuda_usage_1": "14",
+        "gpu_cuda_usage_2": "14",
+        "gpu_mem_1": "8112.0MB",
+        "gpu_mem_2": "8112.0MB",
+        "gpu_temp": "76",
+        "gpu_usage_1": "90.0%",
+        "gpu_usage_2": "90.0%"
+      },
+      "interface": {
+        "hik": true,
+        "result_send": true,
+        "sender": true,
+        "uwsgi": true
+      },
+      "log": {
+        "CraneDataSender": {
+          "log_error_key": [],
+          "log_status": 0
+        },
+        "GetPLC_siemens": {
+          "log_error_key": [],
+          "log_status": 0
+        },
+        "OSK": {
+          "log_error_key": [],
+          "log_status": 0
+        }
+      },
+      "mem": {
+        "mem_free": "25447.0MB",
+        "mem_size": "64305.0MB",
+        "mem_usage": "40.70%",
+        "mem_used": "37389.0MB",
+        "swap_usage": "1.4%"
+      },
+      "network": {
+        "bond0_in": "1679.13KB/s",
+        "bond0_out": "39.32KB/s"
+      },
+      "sysproc": {
+        "mysql": true,
+        "nginx": true,
+        "php": true,
+        "redis": true,
+        "vsftp": true
+      },
+      "wellocean": {
+        "/WellOcean/container_face_29": true,
+        "/WellOcean/container_location_crane_30": true,
+        "/WellOcean/container_roi_31": true,
+        "/WellOcean/control_info_crane_26": true,
+        "/WellOcean/image_processing_21": true,
+        "/WellOcean/image_processing_22": true,
+        "/WellOcean/image_processing_4": true,
+        "/WellOcean/image_processing_5": true,
+        "/WellOcean/image_processing_6": true,
+        "/WellOcean/image_processing_7": true,
+        "/WellOcean/object_roi_23": true,
+        "/WellOcean/object_roi_24": true,
+        "/WellOcean/object_roi_8": true,
+        "/WellOcean/object_roi_9": true,
+        "/WellOcean/osk2_master_shell_34": true,
+        "/WellOcean/osk2_master_shell_35": true,
+        "/WellOcean/osk2_master_shell_36": true,
+        "/WellOcean/osk2_master_shell_37": true,
+        "/WellOcean/osk2_master_shell_38": true,
+        "/WellOcean/osk2_master_shell_39": true,
+        "/WellOcean/osk2_master_shell_40": true,
+        "/WellOcean/osk2_master_shell_41": true,
+        "/WellOcean/osk2_master_shell_42": true,
+        "/WellOcean/osk2_master_shell_43": true,
+        "/WellOcean/osk2_master_shell_44": true,
+        "/WellOcean/osk2_master_shell_45": true,
+        "/WellOcean/osk2_master_shell_46": true,
+        "/WellOcean/osk2_master_shell_47": true,
+        "/WellOcean/osk2_master_shell_48": true,
+        "/WellOcean/osk2_master_shell_49": true,
+        "/WellOcean/resource_reporter_51": true,
+        "/WellOcean/result_send_18": true,
+        "/WellOcean/result_transfer_17": true,
+        "/WellOcean/roi_recog_10": true,
+        "/WellOcean/roi_recog_11": true,
+        "/WellOcean/roi_recog_12": true,
+        "/WellOcean/roi_recog_13": true,
+        "/WellOcean/roi_recog_14": true,
+        "/WellOcean/roi_recog_15": true,
+        "/WellOcean/roi_recog_25": true,
+        "/WellOcean/roi_trigger_16": true,
+        "/WellOcean/roi_trigger_control_info_27": true,
+        "/WellOcean/rotate_camera_crane_2": true,
+        "/WellOcean/rotate_camera_status_3": true,
+        "/WellOcean/seal_recog_32": true,
+        "/WellOcean/select_camera_crane_1": true,
+        "/WellOcean/status_monitor_50": true,
+        "/WellOcean/ui_19": true,
+        "/WellOcean/ui_20": true,
+        "/WellOcean/ui_28": true
+      }
+    },
+    "timestamp": 1578723238
+  },
+  "172.90.109.111": {
+    "monitor": {
+      "cpu": {
+        "cpu_core_num": 48,
+        "cpu_load": "69.7229%",
+        "cpu_usage": "65.8%"
+      },
+      "disk": {
+        "disk_cv_io_ms": "0ms",
+        "disk_cv_io_read": "0KB/s",
+        "disk_cv_io_read_ops": "0ops/s",
+        "disk_cv_io_write": "40KB/s",
+        "disk_cv_io_write_ops": "2ops/s",
+        "disk_cv_space": "3371G",
+        "disk_cv_usage": "42.699999999999996%",
+        "disk_root_io_ms": "0ms",
+        "disk_root_io_read": "0KB/s",
+        "disk_root_io_read_ops": "0ops/s",
+        "disk_root_io_write": "0KB/s",
+        "disk_root_io_write_ops": "0ops/s",
+        "disk_root_space": "236G",
+        "disk_root_usage": "39.199999999999996%"
+      },
+      "gpu": {
+        "gpu_cuda_usage_1": "15.4",
+        "gpu_cuda_usage_2": "15.4",
+        "gpu_mem_1": "8112.0MB",
+        "gpu_mem_2": "8112.0MB",
+        "gpu_temp": "60",
+        "gpu_usage_1": "0.0%",
+        "gpu_usage_2": "0.0%"
+      },
+      "interface": {
+        "hik": false,
+        "result_send": true,
+        "sender": true,
+        "uwsgi": true
+      },
+      "log": {
+        "CraneDataSender": {
+          "log_error_key": [],
+          "log_status": 0
+        },
+        "GetPLC_siemens": {
+          "log_error_key": [],
+          "log_status": 0
+        },
+        "OSK": {
+          "log_error_key": [],
+          "log_status": 0
+        }
+      },
+      "mem": {
+        "mem_free": "36834.0MB",
+        "mem_size": "64305.0MB",
+        "mem_usage": "28.45%",
+        "mem_used": "26132.0MB",
+        "swap_usage": "2.6%"
+      },
+      "network": {
+        "bond0_in": "1631.29KB/s",
+        "bond0_out": "29.38KB/s"
+      },
+      "sysproc": {
+        "mysql": true,
+        "nginx": true,
+        "php": true,
+        "redis": true,
+        "vsftp": true
+      },
+      "wellocean": {
+        "/WellOcean/container_face_29": true,
+        "/WellOcean/container_location_crane_30": true,
+        "/WellOcean/container_roi_31": true,
+        "/WellOcean/control_info_crane_26": true,
+        "/WellOcean/image_processing_21": true,
+        "/WellOcean/image_processing_22": true,
+        "/WellOcean/image_processing_4": true,
+        "/WellOcean/image_processing_5": true,
+        "/WellOcean/image_processing_6": true,
+        "/WellOcean/image_processing_7": true,
+        "/WellOcean/object_roi_23": true,
+        "/WellOcean/object_roi_24": true,
+        "/WellOcean/object_roi_8": true,
+        "/WellOcean/object_roi_9": true,
+        "/WellOcean/osk2_master_shell_34": true,
+        "/WellOcean/osk2_master_shell_35": true,
+        "/WellOcean/osk2_master_shell_36": true,
+        "/WellOcean/osk2_master_shell_37": true,
+        "/WellOcean/osk2_master_shell_38": true,
+        "/WellOcean/osk2_master_shell_39": true,
+        "/WellOcean/osk2_master_shell_40": true,
+        "/WellOcean/osk2_master_shell_41": true,
+        "/WellOcean/osk2_master_shell_42": true,
+        "/WellOcean/osk2_master_shell_43": true,
+        "/WellOcean/osk2_master_shell_44": true,
+        "/WellOcean/osk2_master_shell_45": true,
+        "/WellOcean/osk2_master_shell_46": true,
+        "/WellOcean/osk2_master_shell_47": true,
+        "/WellOcean/osk2_master_shell_48": true,
+        "/WellOcean/osk2_master_shell_49": true,
+        "/WellOcean/resource_reporter_51": true,
+        "/WellOcean/result_send_18": true,
+        "/WellOcean/result_transfer_17": true,
+        "/WellOcean/roi_recog_10": true,
+        "/WellOcean/roi_recog_11": true,
+        "/WellOcean/roi_recog_12": true,
+        "/WellOcean/roi_recog_13": true,
+        "/WellOcean/roi_recog_14": true,
+        "/WellOcean/roi_recog_15": true,
+        "/WellOcean/roi_recog_25": true,
+        "/WellOcean/roi_trigger_16": true,
+        "/WellOcean/roi_trigger_control_info_27": true,
+        "/WellOcean/rotate_camera_crane_2": true,
+        "/WellOcean/rotate_camera_status_3": true,
+        "/WellOcean/seal_recog_32": true,
+        "/WellOcean/select_camera_crane_1": true,
+        "/WellOcean/status_monitor_50": true,
+        "/WellOcean/ui_19": true,
+        "/WellOcean/ui_20": true,
+        "/WellOcean/ui_28": true
+      }
+    },
+    "timestamp": 1578723239
+  },
+  "172.90.109.112": {
+    "monitor": {
+      "cpu": {
+        "cpu_core_num": 48,
+        "cpu_load": "69.3729%",
+        "cpu_usage": "57.4%"
+      },
+      "disk": {
+        "disk_cv_io_ms": "0ms",
+        "disk_cv_io_read": "0KB/s",
+        "disk_cv_io_read_ops": "0ops/s",
+        "disk_cv_io_write": "0KB/s",
+        "disk_cv_io_write_ops": "0ops/s",
+        "disk_cv_space": "3371G",
+        "disk_cv_usage": "53.9%",
+        "disk_root_io_ms": "0ms",
+        "disk_root_io_read": "0KB/s",
+        "disk_root_io_read_ops": "0ops/s",
+        "disk_root_io_write": "0KB/s",
+        "disk_root_io_write_ops": "0ops/s",
+        "disk_root_space": "236G",
+        "disk_root_usage": "35.699999999999996%"
+      },
+      "gpu": {
+        "gpu_cuda_usage_1": "14",
+        "gpu_cuda_usage_2": "14",
+        "gpu_mem_1": "8112.0MB",
+        "gpu_mem_2": "8112.0MB",
+        "gpu_temp": "56",
+        "gpu_usage_1": "0.0%",
+        "gpu_usage_2": "0.0%"
+      },
+      "interface": {
+        "hik": true,
+        "result_send": true,
+        "sender": true,
+        "uwsgi": true
+      },
+      "log": {
+        "CraneDataSender": {
+          "log_error_key": [],
+          "log_status": 0
+        },
+        "GetPLC_siemens": {
+          "log_error_key": [],
+          "log_status": 0
+        },
+        "OSK": {
+          "log_error_key": [],
+          "log_status": 0
+        }
+      },
+      "mem": {
+        "mem_free": "35847.0MB",
+        "mem_size": "64305.0MB",
+        "mem_usage": "29.46%",
+        "mem_used": "27061.0MB",
+        "swap_usage": "1.8%"
+      },
+      "network": {
+        "bond0_in": "1829.46KB/s",
+        "bond0_out": "32.04KB/s"
+      },
+      "sysproc": {
+        "mysql": true,
+        "nginx": true,
+        "php": true,
+        "redis": true,
+        "vsftp": true
+      },
+      "wellocean": {
+        "/WellOcean/container_face_29": true,
+        "/WellOcean/container_location_crane_30": true,
+        "/WellOcean/container_roi_31": true,
+        "/WellOcean/control_info_crane_26": true,
+        "/WellOcean/image_processing_21": true,
+        "/WellOcean/image_processing_22": true,
+        "/WellOcean/image_processing_4": false,
+        "/WellOcean/image_processing_5": true,
+        "/WellOcean/image_processing_6": true,
+        "/WellOcean/image_processing_7": true,
+        "/WellOcean/object_roi_23": true,
+        "/WellOcean/object_roi_24": true,
+        "/WellOcean/object_roi_8": true,
+        "/WellOcean/object_roi_9": true,
+        "/WellOcean/osk2_master_shell_34": true,
+        "/WellOcean/osk2_master_shell_35": true,
+        "/WellOcean/osk2_master_shell_36": true,
+        "/WellOcean/osk2_master_shell_37": true,
+        "/WellOcean/osk2_master_shell_38": true,
+        "/WellOcean/osk2_master_shell_39": true,
+        "/WellOcean/osk2_master_shell_40": true,
+        "/WellOcean/osk2_master_shell_41": true,
+        "/WellOcean/osk2_master_shell_42": true,
+        "/WellOcean/osk2_master_shell_43": true,
+        "/WellOcean/osk2_master_shell_44": true,
+        "/WellOcean/osk2_master_shell_45": true,
+        "/WellOcean/osk2_master_shell_46": true,
+        "/WellOcean/osk2_master_shell_47": true,
+        "/WellOcean/osk2_master_shell_48": true,
+        "/WellOcean/osk2_master_shell_49": true,
+        "/WellOcean/resource_reporter_51": true,
+        "/WellOcean/result_send_18": true,
+        "/WellOcean/result_transfer_17": true,
+        "/WellOcean/roi_recog_10": true,
+        "/WellOcean/roi_recog_11": true,
+        "/WellOcean/roi_recog_12": true,
+        "/WellOcean/roi_recog_13": true,
+        "/WellOcean/roi_recog_14": true,
+        "/WellOcean/roi_recog_15": true,
+        "/WellOcean/roi_recog_25": true,
+        "/WellOcean/roi_trigger_16": true,
+        "/WellOcean/roi_trigger_control_info_27": true,
+        "/WellOcean/rotate_camera_crane_2": true,
+        "/WellOcean/rotate_camera_status_3": true,
+        "/WellOcean/seal_recog_32": true,
+        "/WellOcean/select_camera_crane_1": true,
+        "/WellOcean/status_monitor_50": true,
+        "/WellOcean/ui_19": true,
+        "/WellOcean/ui_20": true,
+        "/WellOcean/ui_28": true
+      }
+    },
+    "timestamp": 1578723239
+  },
+  "172.90.109.113": {
+    "monitor": {
+      "cpu": {
+        "cpu_core_num": 48,
+        "cpu_load": "70.3937%",
+        "cpu_usage": "60.199999999999996%"
+      },
+      "disk": {
+        "disk_cv_io_ms": "4ms",
+        "disk_cv_io_read": "0KB/s",
+        "disk_cv_io_read_ops": "0ops/s",
+        "disk_cv_io_write": "6104KB/s",
+        "disk_cv_io_write_ops": "26ops/s",
+        "disk_cv_space": "3371G",
+        "disk_cv_usage": "42.0%",
+        "disk_root_io_ms": "0ms",
+        "disk_root_io_read": "0KB/s",
+        "disk_root_io_read_ops": "0ops/s",
+        "disk_root_io_write": "0KB/s",
+        "disk_root_io_write_ops": "0ops/s",
+        "disk_root_space": "236G",
+        "disk_root_usage": "40.599999999999994%"
+      },
+      "gpu": {
+        "gpu_cuda_usage_1": "13.3",
+        "gpu_cuda_usage_2": "13.3",
+        "gpu_mem_1": "8112.0MB",
+        "gpu_mem_2": "8112.0MB",
+        "gpu_temp": "71",
+        "gpu_usage_1": "0.0%",
+        "gpu_usage_2": "0.0%"
+      },
+      "interface": {
+        "hik": true,
+        "result_send": true,
+        "sender": true,
+        "uwsgi": true
+      },
+      "log": {
+        "CraneDataSender": {
+          "log_error_key": [],
+          "log_status": 2
+        },
+        "GetPLC_siemens": {
+          "log_error_key": [],
+          "log_status": 0
+        },
+        "OSK": {
+          "log_error_key": [],
+          "log_status": 0
+        }
+      },
+      "mem": {
+        "mem_free": "22719.0MB",
+        "mem_size": "64305.0MB",
+        "mem_usage": "43.73%",
+        "mem_used": "40174.0MB",
+        "swap_usage": "1.7%"
+      },
+      "network": {
+        "bond0_in": "1878.42KB/s",
+        "bond0_out": "40.83KB/s"
+      },
+      "sysproc": {
+        "mysql": true,
+        "nginx": true,
+        "php": true,
+        "redis": true,
+        "vsftp": false
+      },
+      "wellocean": {
+        "/WellOcean/container_face_29": true,
+        "/WellOcean/container_location_crane_30": true,
+        "/WellOcean/container_roi_31": true,
+        "/WellOcean/control_info_crane_26": true,
+        "/WellOcean/image_processing_21": true,
+        "/WellOcean/image_processing_22": true,
+        "/WellOcean/image_processing_4": true,
+        "/WellOcean/image_processing_5": true,
+        "/WellOcean/image_processing_6": true,
+        "/WellOcean/image_processing_7": true,
+        "/WellOcean/object_roi_23": true,
+        "/WellOcean/object_roi_24": true,
+        "/WellOcean/object_roi_8": true,
+        "/WellOcean/object_roi_9": true,
+        "/WellOcean/osk2_master_shell_34": true,
+        "/WellOcean/osk2_master_shell_35": true,
+        "/WellOcean/osk2_master_shell_36": true,
+        "/WellOcean/osk2_master_shell_37": true,
+        "/WellOcean/osk2_master_shell_38": true,
+        "/WellOcean/osk2_master_shell_39": true,
+        "/WellOcean/osk2_master_shell_40": true,
+        "/WellOcean/osk2_master_shell_41": true,
+        "/WellOcean/osk2_master_shell_42": true,
+        "/WellOcean/osk2_master_shell_43": true,
+        "/WellOcean/osk2_master_shell_44": true,
+        "/WellOcean/osk2_master_shell_45": true,
+        "/WellOcean/osk2_master_shell_46": true,
+        "/WellOcean/osk2_master_shell_47": true,
+        "/WellOcean/osk2_master_shell_48": true,
+        "/WellOcean/osk2_master_shell_49": true,
+        "/WellOcean/resource_reporter_51": true,
+        "/WellOcean/result_send_18": true,
+        "/WellOcean/result_transfer_17": true,
+        "/WellOcean/roi_recog_10": true,
+        "/WellOcean/roi_recog_11": true,
+        "/WellOcean/roi_recog_12": true,
+        "/WellOcean/roi_recog_13": true,
+        "/WellOcean/roi_recog_14": true,
+        "/WellOcean/roi_recog_15": true,
+        "/WellOcean/roi_recog_25": true,
+        "/WellOcean/roi_trigger_16": true,
+        "/WellOcean/roi_trigger_control_info_27": true,
+        "/WellOcean/rotate_camera_crane_2": true,
+        "/WellOcean/rotate_camera_status_3": true,
+        "/WellOcean/seal_recog_32": true,
+        "/WellOcean/select_camera_crane_1": true,
+        "/WellOcean/status_monitor_50": true,
+        "/WellOcean/ui_19": true,
+        "/WellOcean/ui_20": true,
+        "/WellOcean/ui_28": true
+      }
+    },
+    "timestamp": 1578723239
+  },
+  "172.90.109.114": {
+    "monitor": {
+      "cpu": {
+        "cpu_core_num": 48,
+        "cpu_load": "70.0875%",
+        "cpu_usage": "56.699999999999996%"
+      },
+      "disk": {
+        "disk_cv_io_ms": "0ms",
+        "disk_cv_io_read": "0KB/s",
+        "disk_cv_io_read_ops": "0ops/s",
+        "disk_cv_io_write": "0KB/s",
+        "disk_cv_io_write_ops": "0ops/s",
+        "disk_cv_space": "3371G",
+        "disk_cv_usage": "42.0%",
+        "disk_root_io_ms": "0ms",
+        "disk_root_io_read": "0KB/s",
+        "disk_root_io_read_ops": "0ops/s",
+        "disk_root_io_write": "0KB/s",
+        "disk_root_io_write_ops": "0ops/s",
+        "disk_root_space": "236G",
+        "disk_root_usage": "43.4%"
+      },
+      "gpu": {
+        "gpu_cuda_usage_1": "14.7",
+        "gpu_cuda_usage_2": "14.7",
+        "gpu_mem_1": "8112.0MB",
+        "gpu_mem_2": "8112.0MB",
+        "gpu_temp": "60",
+        "gpu_usage_1": "0.0%",
+        "gpu_usage_2": "0.0%"
+      },
+      "interface": {
+        "hik": true,
+        "result_send": true,
+        "sender": true,
+        "uwsgi": true
+      },
+      "log": {
+        "CraneDataSender": {
+          "log_error_key": [],
+          "log_status": 0
+        },
+        "GetPLC_siemens": {
+          "log_error_key": [],
+          "log_status": 0
+        },
+        "OSK": {
+          "log_error_key": [],
+          "log_status": 0
+        }
+      },
+      "mem": {
+        "mem_free": "33568.0MB",
+        "mem_size": "64305.0MB",
+        "mem_usage": "91.89%",
+        "mem_used": "29291.0MB",
+        "swap_usage": "2.9%"
+      },
+      "network": {
+        "bond0_in": "1560.41KB/s",
+        "bond0_out": "27.95KB/s"
+      },
+      "sysproc": {
+        "mysql": true,
+        "nginx": true,
+        "php": true,
+        "redis": false,
+        "vsftp": true
+      },
+      "wellocean": {
+        "/WellOcean/container_face_29": true,
+        "/WellOcean/container_location_crane_30": true,
+        "/WellOcean/container_roi_31": true,
+        "/WellOcean/control_info_crane_26": true,
+        "/WellOcean/image_processing_21": true,
+        "/WellOcean/image_processing_22": true,
+        "/WellOcean/image_processing_4": true,
+        "/WellOcean/image_processing_5": true,
+        "/WellOcean/image_processing_6": true,
+        "/WellOcean/image_processing_7": true,
+        "/WellOcean/object_roi_23": true,
+        "/WellOcean/object_roi_24": true,
+        "/WellOcean/object_roi_8": true,
+        "/WellOcean/object_roi_9": true,
+        "/WellOcean/osk2_master_shell_34": true,
+        "/WellOcean/osk2_master_shell_35": true,
+        "/WellOcean/osk2_master_shell_36": true,
+        "/WellOcean/osk2_master_shell_37": true,
+        "/WellOcean/osk2_master_shell_38": true,
+        "/WellOcean/osk2_master_shell_39": true,
+        "/WellOcean/osk2_master_shell_40": true,
+        "/WellOcean/osk2_master_shell_41": true,
+        "/WellOcean/osk2_master_shell_42": true,
+        "/WellOcean/osk2_master_shell_43": true,
+        "/WellOcean/osk2_master_shell_44": true,
+        "/WellOcean/osk2_master_shell_45": true,
+        "/WellOcean/osk2_master_shell_46": true,
+        "/WellOcean/osk2_master_shell_47": true,
+        "/WellOcean/osk2_master_shell_48": true,
+        "/WellOcean/osk2_master_shell_49": true,
+        "/WellOcean/resource_reporter_51": true,
+        "/WellOcean/result_send_18": true,
+        "/WellOcean/result_transfer_17": true,
+        "/WellOcean/roi_recog_10": true,
+        "/WellOcean/roi_recog_11": true,
+        "/WellOcean/roi_recog_12": true,
+        "/WellOcean/roi_recog_13": true,
+        "/WellOcean/roi_recog_14": true,
+        "/WellOcean/roi_recog_15": true,
+        "/WellOcean/roi_recog_25": true,
+        "/WellOcean/roi_trigger_16": true,
+        "/WellOcean/roi_trigger_control_info_27": true,
+        "/WellOcean/rotate_camera_crane_2": true,
+        "/WellOcean/rotate_camera_status_3": true,
+        "/WellOcean/seal_recog_32": true,
+        "/WellOcean/select_camera_crane_1": true,
+        "/WellOcean/status_monitor_50": true,
+        "/WellOcean/ui_19": true,
+        "/WellOcean/ui_20": true,
+        "/WellOcean/ui_28": true
+      }
+    },
+    "timestamp": 1578723239
+  },
+  "172.90.109.115": {
+    "monitor": {
+      "cpu": {
+        "cpu_core_num": 48,
+        "cpu_load": "67.8854%",
+        "cpu_usage": "58.099999999999994%"
+      },
+      "disk": {
+        "disk_cv_io_ms": "0ms",
+        "disk_cv_io_read": "0KB/s",
+        "disk_cv_io_read_ops": "0ops/s",
+        "disk_cv_io_write": "0KB/s",
+        "disk_cv_io_write_ops": "0ops/s",
+        "disk_cv_space": "3420G",
+        "disk_cv_usage": "57.4%",
+        "disk_root_io_ms": "0ms",
+        "disk_root_io_read": "0KB/s",
+        "disk_root_io_read_ops": "0ops/s",
+        "disk_root_io_write": "0KB/s",
+        "disk_root_io_write_ops": "0ops/s",
+        "disk_root_space": "216G",
+        "disk_root_usage": "39.199999999999996%"
+      },
+      "gpu": {
+        "gpu_cuda_usage_1": "10.5",
+        "gpu_cuda_usage_2": "10.5",
+        "gpu_mem_1": "8112.0MB",
+        "gpu_mem_2": "8112.0MB",
+        "gpu_temp": "58",
+        "gpu_usage_1": "0.0%",
+        "gpu_usage_2": "0.0%"
+      },
+      "interface": {
+        "hik": true,
+        "result_send": true,
+        "sender": true,
+        "uwsgi": true
+      },
+      "log": {
+        "CraneDataSender": {
+          "log_error_key": [],
+          "log_status": 0
+        },
+        "GetPLC_siemens": {
+          "log_error_key": [],
+          "log_status": 0
+        },
+        "OSK": {
+          "log_error_key": [],
+          "log_status": 4
+        }
+      },
+      "mem": {
+        "mem_free": "36112.0MB",
+        "mem_size": "64305.0MB",
+        "mem_usage": "29.18%",
+        "mem_used": "26807.0MB",
+        "swap_usage": "2.2%"
+      },
+      "network": {
+        "bond0_in": "1758.36KB/s",
+        "bond0_out": "34.15KB/s"
+      },
+      "sysproc": {
+        "mysql": true,
+        "nginx": true,
+        "php": true,
+        "redis": true,
+        "vsftp": true
+      },
+      "wellocean": {
+        "/WellOcean/container_face_29": true,
+        "/WellOcean/container_location_crane_30": true,
+        "/WellOcean/container_roi_31": true,
+        "/WellOcean/control_info_crane_26": true,
+        "/WellOcean/image_processing_21": true,
+        "/WellOcean/image_processing_22": true,
+        "/WellOcean/image_processing_4": true,
+        "/WellOcean/image_processing_5": true,
+        "/WellOcean/image_processing_6": true,
+        "/WellOcean/image_processing_7": true,
+        "/WellOcean/object_roi_23": true,
+        "/WellOcean/object_roi_24": true,
+        "/WellOcean/object_roi_8": true,
+        "/WellOcean/object_roi_9": true,
+        "/WellOcean/osk2_master_shell_34": true,
+        "/WellOcean/osk2_master_shell_35": true,
+        "/WellOcean/osk2_master_shell_36": true,
+        "/WellOcean/osk2_master_shell_37": true,
+        "/WellOcean/osk2_master_shell_38": true,
+        "/WellOcean/osk2_master_shell_39": true,
+        "/WellOcean/osk2_master_shell_40": true,
+        "/WellOcean/osk2_master_shell_41": true,
+        "/WellOcean/osk2_master_shell_42": true,
+        "/WellOcean/osk2_master_shell_43": true,
+        "/WellOcean/osk2_master_shell_44": true,
+        "/WellOcean/osk2_master_shell_45": true,
+        "/WellOcean/osk2_master_shell_46": true,
+        "/WellOcean/osk2_master_shell_47": true,
+        "/WellOcean/osk2_master_shell_48": true,
+        "/WellOcean/osk2_master_shell_49": true,
+        "/WellOcean/resource_reporter_51": true,
+        "/WellOcean/result_send_18": true,
+        "/WellOcean/result_transfer_17": true,
+        "/WellOcean/roi_recog_10": true,
+        "/WellOcean/roi_recog_11": true,
+        "/WellOcean/roi_recog_12": true,
+        "/WellOcean/roi_recog_13": true,
+        "/WellOcean/roi_recog_14": true,
+        "/WellOcean/roi_recog_15": true,
+        "/WellOcean/roi_recog_25": true,
+        "/WellOcean/roi_trigger_16": true,
+        "/WellOcean/roi_trigger_control_info_27": true,
+        "/WellOcean/rotate_camera_crane_2": true,
+        "/WellOcean/rotate_camera_status_3": true,
+        "/WellOcean/seal_recog_32": true,
+        "/WellOcean/select_camera_crane_1": true,
+        "/WellOcean/status_monitor_50": true,
+        "/WellOcean/ui_19": true,
+        "/WellOcean/ui_20": true,
+        "/WellOcean/ui_28": true
+      }
+    },
+    "timestamp": 1578723240
+  },
+  "172.90.109.116": {
+    "monitor": {
+      "cpu": {
+        "cpu_core_num": 48,
+        "cpu_load": "62.0083%",
+        "cpu_usage": "61.599999999999994%"
+      },
+      "disk": {
+        "disk_cv_io_ms": "0ms",
+        "disk_cv_io_read": "0KB/s",
+        "disk_cv_io_read_ops": "0ops/s",
+        "disk_cv_io_write": "0KB/s",
+        "disk_cv_io_write_ops": "0ops/s",
+        "disk_cv_space": "3371G",
+        "disk_cv_usage": "45.5%",
+        "disk_root_io_ms": "0ms",
+        "disk_root_io_read": "0KB/s",
+        "disk_root_io_read_ops": "0ops/s",
+        "disk_root_io_write": "0KB/s",
+        "disk_root_io_write_ops": "0ops/s",
+        "disk_root_space": "236G",
+        "disk_root_usage": "30.799999999999997%"
+      },
+      "gpu": {
+        "gpu_cuda_usage_1": "11.2",
+        "gpu_cuda_usage_2": "11.2",
+        "gpu_mem_1": "8112.0MB",
+        "gpu_mem_2": "8112.0MB",
+        "gpu_temp": "59",
+        "gpu_usage_1": "0.0%",
+        "gpu_usage_2": "0.0%"
+      },
+      "interface": {
+        "hik": true,
+        "result_send": true,
+        "sender": true,
+        "uwsgi": true
+      },
+      "log": {
+        "CraneDataSender": {
+          "log_error_key": [],
+          "log_status": 0
+        },
+        "GetPLC_siemens": {
+          "log_error_key": [],
+          "log_status": 0
+        },
+        "OSK": {
+          "log_error_key": [],
+          "log_status": 0
+        }
+      },
+      "mem": {
+        "mem_free": "13892.0MB",
+        "mem_size": "64305.0MB",
+        "mem_usage": "53.17%",
+        "mem_used": "48844.0MB",
+        "swap_usage": "9.2%"
+      },
+      "network": {
+        "bond0_in": "1453.13KB/s",
+        "bond0_out": "37.77KB/s"
+      },
+      "sysproc": {
+        "mysql": true,
+        "nginx": true,
+        "php": true,
+        "redis": true,
+        "vsftp": true
+      },
+      "wellocean": {
+        "/WellOcean/container_face_29": true,
+        "/WellOcean/container_location_crane_30": true,
+        "/WellOcean/container_roi_31": true,
+        "/WellOcean/control_info_crane_26": true,
+        "/WellOcean/image_processing_21": true,
+        "/WellOcean/image_processing_22": true,
+        "/WellOcean/image_processing_4": true,
+        "/WellOcean/image_processing_5": true,
+        "/WellOcean/image_processing_6": true,
+        "/WellOcean/image_processing_7": true,
+        "/WellOcean/object_roi_23": true,
+        "/WellOcean/object_roi_24": true,
+        "/WellOcean/object_roi_8": true,
+        "/WellOcean/object_roi_9": true,
+        "/WellOcean/osk2_master_shell_34": true,
+        "/WellOcean/osk2_master_shell_35": true,
+        "/WellOcean/osk2_master_shell_36": true,
+        "/WellOcean/osk2_master_shell_37": true,
+        "/WellOcean/osk2_master_shell_38": true,
+        "/WellOcean/osk2_master_shell_39": true,
+        "/WellOcean/osk2_master_shell_40": true,
+        "/WellOcean/osk2_master_shell_41": true,
+        "/WellOcean/osk2_master_shell_42": true,
+        "/WellOcean/osk2_master_shell_43": true,
+        "/WellOcean/osk2_master_shell_44": true,
+        "/WellOcean/osk2_master_shell_45": true,
+        "/WellOcean/osk2_master_shell_46": true,
+        "/WellOcean/osk2_master_shell_47": true,
+        "/WellOcean/osk2_master_shell_48": true,
+        "/WellOcean/osk2_master_shell_49": true,
+        "/WellOcean/resource_reporter_51": true,
+        "/WellOcean/result_send_18": true,
+        "/WellOcean/result_transfer_17": true,
+        "/WellOcean/roi_recog_10": true,
+        "/WellOcean/roi_recog_11": true,
+        "/WellOcean/roi_recog_12": true,
+        "/WellOcean/roi_recog_13": true,
+        "/WellOcean/roi_recog_14": true,
+        "/WellOcean/roi_recog_15": true,
+        "/WellOcean/roi_recog_25": true,
+        "/WellOcean/roi_trigger_16": true,
+        "/WellOcean/roi_trigger_control_info_27": true,
+        "/WellOcean/rotate_camera_crane_2": true,
+        "/WellOcean/rotate_camera_status_3": true,
+        "/WellOcean/seal_recog_32": true,
+        "/WellOcean/select_camera_crane_1": true,
+        "/WellOcean/status_monitor_50": true,
+        "/WellOcean/ui_19": true,
+        "/WellOcean/ui_20": true,
+        "/WellOcean/ui_28": true
+      }
+    },
+    "timestamp": 1578723239
+  },
+  "172.90.109.117": {
+    "monitor": {
+      "cpu": {
+        "cpu_core_num": 48,
+        "cpu_load": "66.4708%",
+        "cpu_usage": "64.39999999999999%"
+      },
+      "disk": {
+        "disk_cv_io_ms": "0ms",
+        "disk_cv_io_read": "0KB/s",
+        "disk_cv_io_read_ops": "0ops/s",
+        "disk_cv_io_write": "0KB/s",
+        "disk_cv_io_write_ops": "0ops/s",
+        "disk_cv_space": "3371G",
+        "disk_cv_usage": "41.3%",
+        "disk_root_io_ms": "0ms",
+        "disk_root_io_read": "0KB/s",
+        "disk_root_io_read_ops": "0ops/s",
+        "disk_root_io_write": "0KB/s",
+        "disk_root_io_write_ops": "0ops/s",
+        "disk_root_space": "236G",
+        "disk_root_usage": "33.599999999999994%"
+      },
+      "gpu": {
+        "gpu_cuda_usage_1": "9.8",
+        "gpu_cuda_usage_2": "9.8",
+        "gpu_mem_1": "8112.0MB",
+        "gpu_mem_2": "8112.0MB",
+        "gpu_temp": "54",
+        "gpu_usage_1": "0.0%",
+        "gpu_usage_2": "0.0%"
+      },
+      "interface": {
+        "hik": true,
+        "result_send": true,
+        "sender": true,
+        "uwsgi": true
+      },
+      "log": {
+        "CraneDataSender": {
+          "log_error_key": [],
+          "log_status": 0
+        },
+        "GetPLC_siemens": {
+          "log_error_key": [],
+          "log_status": 0
+        },
+        "OSK": {
+          "log_error_key": [],
+          "log_status": 0
+        }
+      },
+      "mem": {
+        "mem_free": "37058.0MB",
+        "mem_size": "64305.0MB",
+        "mem_usage": "28.18%",
+        "mem_used": "25885.0MB",
+        "swap_usage": "2.2%"
+      },
+      "network": {
+        "bond0_in": "1696.80KB/s",
+        "bond0_out": "27.91KB/s"
+      },
+      "sysproc": {
+        "mysql": true,
+        "nginx": true,
+        "php": true,
+        "redis": true,
+        "vsftp": true
+      },
+      "wellocean": {
+        "/WellOcean/container_face_29": true,
+        "/WellOcean/container_location_crane_30": true,
+        "/WellOcean/container_roi_31": true,
+        "/WellOcean/control_info_crane_26": true,
+        "/WellOcean/image_processing_21": true,
+        "/WellOcean/image_processing_22": true,
+        "/WellOcean/image_processing_4": true,
+        "/WellOcean/image_processing_5": true,
+        "/WellOcean/image_processing_6": true,
+        "/WellOcean/image_processing_7": true,
+        "/WellOcean/object_roi_23": true,
+        "/WellOcean/object_roi_24": true,
+        "/WellOcean/object_roi_8": true,
+        "/WellOcean/object_roi_9": true,
+        "/WellOcean/osk2_master_shell_34": true,
+        "/WellOcean/osk2_master_shell_35": true,
+        "/WellOcean/osk2_master_shell_36": true,
+        "/WellOcean/osk2_master_shell_37": true,
+        "/WellOcean/osk2_master_shell_38": true,
+        "/WellOcean/osk2_master_shell_39": true,
+        "/WellOcean/osk2_master_shell_40": true,
+        "/WellOcean/osk2_master_shell_41": true,
+        "/WellOcean/osk2_master_shell_42": true,
+        "/WellOcean/osk2_master_shell_43": true,
+        "/WellOcean/osk2_master_shell_44": true,
+        "/WellOcean/osk2_master_shell_45": true,
+        "/WellOcean/osk2_master_shell_46": true,
+        "/WellOcean/osk2_master_shell_47": true,
+        "/WellOcean/osk2_master_shell_48": true,
+        "/WellOcean/osk2_master_shell_49": true,
+        "/WellOcean/resource_reporter_51": true,
+        "/WellOcean/result_send_18": true,
+        "/WellOcean/result_transfer_17": true,
+        "/WellOcean/roi_recog_10": true,
+        "/WellOcean/roi_recog_11": true,
+        "/WellOcean/roi_recog_12": true,
+        "/WellOcean/roi_recog_13": true,
+        "/WellOcean/roi_recog_14": true,
+        "/WellOcean/roi_recog_15": true,
+        "/WellOcean/roi_recog_25": true,
+        "/WellOcean/roi_trigger_16": true,
+        "/WellOcean/roi_trigger_control_info_27": true,
+        "/WellOcean/rotate_camera_crane_2": true,
+        "/WellOcean/rotate_camera_status_3": true,
+        "/WellOcean/seal_recog_32": true,
+        "/WellOcean/select_camera_crane_1": true,
+        "/WellOcean/status_monitor_50": true,
+        "/WellOcean/ui_19": true,
+        "/WellOcean/ui_20": true,
+        "/WellOcean/ui_28": true
+      }
+    },
+    "timestamp": 1578723239
+  },
+  "172.90.109.118": {
+    "monitor": {
+      "cpu": {
+        "cpu_core_num": 48,
+        "cpu_load": "57.6042%",
+        "cpu_usage": "52.5%"
+      },
+      "disk": {
+        "disk_cv_io_ms": "0ms",
+        "disk_cv_io_read": "0KB/s",
+        "disk_cv_io_read_ops": "0ops/s",
+        "disk_cv_io_write": "16KB/s",
+        "disk_cv_io_write_ops": "2ops/s",
+        "disk_cv_space": "3371G",
+        "disk_cv_usage": "42.0%",
+        "disk_root_io_ms": "0ms",
+        "disk_root_io_read": "0KB/s",
+        "disk_root_io_read_ops": "0ops/s",
+        "disk_root_io_write": "212KB/s",
+        "disk_root_io_write_ops": "2ops/s",
+        "disk_root_space": "236G",
+        "disk_root_usage": "39.9%"
+      },
+      "gpu": {
+        "gpu_cuda_usage_1": "9.1",
+        "gpu_cuda_usage_2": "9.1",
+        "gpu_mem_1": "8112.0MB",
+        "gpu_mem_2": "8112.0MB",
+        "gpu_temp": "76",
+        "gpu_usage_1": "0.0%",
+        "gpu_usage_2": "0.0%"
+      },
+      "interface": {
+        "hik": true,
+        "result_send": true,
+        "sender": true,
+        "uwsgi": true
+      },
+      "log": {
+        "CraneDataSender": {
+          "log_error_key": [],
+          "log_status": 0
+        },
+        "GetPLC_siemens": {
+          "log_error_key": [],
+          "log_status": 0
+        },
+        "OSK": {
+          "log_error_key": [],
+          "log_status": 0
+        }
+      },
+      "mem": {
+        "mem_free": "18726.0MB",
+        "mem_size": "56241.0MB",
+        "mem_usage": "44.77%",
+        "mem_used": "35973.0MB",
+        "swap_usage": "8.9%"
+      },
+      "network": {
+        "bond0_in": "2120.70KB/s",
+        "bond0_out": "41.12KB/s"
+      },
+      "sysproc": {
+        "mysql": true,
+        "nginx": true,
+        "php": true,
+        "redis": true,
+        "vsftp": true
+      },
+      "wellocean": {
+        "/WellOcean/container_face_29": true,
+        "/WellOcean/container_location_crane_30": true,
+        "/WellOcean/container_roi_31": true,
+        "/WellOcean/control_info_crane_26": true,
+        "/WellOcean/image_processing_21": true,
+        "/WellOcean/image_processing_22": true,
+        "/WellOcean/image_processing_4": true,
+        "/WellOcean/image_processing_5": true,
+        "/WellOcean/image_processing_6": true,
+        "/WellOcean/image_processing_7": true,
+        "/WellOcean/object_roi_23": true,
+        "/WellOcean/object_roi_24": true,
+        "/WellOcean/object_roi_8": true,
+        "/WellOcean/object_roi_9": true,
+        "/WellOcean/osk2_master_shell_34": true,
+        "/WellOcean/osk2_master_shell_35": true,
+        "/WellOcean/osk2_master_shell_36": true,
+        "/WellOcean/osk2_master_shell_37": true,
+        "/WellOcean/osk2_master_shell_38": true,
+        "/WellOcean/osk2_master_shell_39": true,
+        "/WellOcean/osk2_master_shell_40": true,
+        "/WellOcean/osk2_master_shell_41": true,
+        "/WellOcean/osk2_master_shell_42": true,
+        "/WellOcean/osk2_master_shell_43": true,
+        "/WellOcean/osk2_master_shell_44": true,
+        "/WellOcean/osk2_master_shell_45": true,
+        "/WellOcean/osk2_master_shell_46": true,
+        "/WellOcean/osk2_master_shell_47": true,
+        "/WellOcean/osk2_master_shell_48": true,
+        "/WellOcean/osk2_master_shell_49": true,
+        "/WellOcean/resource_reporter_51": true,
+        "/WellOcean/result_send_18": true,
+        "/WellOcean/result_transfer_17": true,
+        "/WellOcean/roi_recog_10": true,
+        "/WellOcean/roi_recog_11": true,
+        "/WellOcean/roi_recog_12": true,
+        "/WellOcean/roi_recog_13": true,
+        "/WellOcean/roi_recog_14": true,
+        "/WellOcean/roi_recog_15": true,
+        "/WellOcean/roi_recog_25": true,
+        "/WellOcean/roi_trigger_16": true,
+        "/WellOcean/roi_trigger_control_info_27": true,
+        "/WellOcean/rotate_camera_crane_2": true,
+        "/WellOcean/rotate_camera_status_3": true,
+        "/WellOcean/seal_recog_32": true,
+        "/WellOcean/select_camera_crane_1": true,
+        "/WellOcean/status_monitor_50": true,
+        "/WellOcean/ui_19": true,
+        "/WellOcean/ui_28": true
+      }
+    },
+    "timestamp": 1578723238
+  },
+  "camers_info": {
+    "172.90.1.151": true,
+    "172.90.1.152": true,
+    "172.90.1.153": true,
+    "172.90.1.154": true,
+    "172.90.1.155": true,
+    "172.90.1.156": true,
+    "172.90.1.157": true,
+    "172.90.1.158": true,
+    "172.90.1.159": true,
+    "172.90.1.160": true,
+    "172.90.1.161": true,
+    "172.90.1.162": true,
+    "172.90.1.163": true,
+    "172.90.1.164": true,
+    "172.90.1.165": true,
+    "172.90.1.166": true,
+    "172.90.10.151": true,
+    "172.90.10.152": true,
+    "172.90.10.153": true,
+    "172.90.10.154": true,
+    "172.90.10.155": true,
+    "172.90.10.156": true,
+    "172.90.10.157": true,
+    "172.90.10.158": true,
+    "172.90.10.159": true,
+    "172.90.10.160": true,
+    "172.90.10.161": true,
+    "172.90.10.162": true,
+    "172.90.10.163": true,
+    "172.90.10.164": true,
+    "172.90.10.165": true,
+    "172.90.10.166": true,
+    "172.90.11.151": true,
+    "172.90.11.152": true,
+    "172.90.11.153": true,
+    "172.90.11.154": true,
+    "172.90.11.155": true,
+    "172.90.11.156": true,
+    "172.90.11.157": true,
+    "172.90.11.158": true,
+    "172.90.11.159": true,
+    "172.90.11.160": true,
+    "172.90.11.161": true,
+    "172.90.11.162": true,
+    "172.90.11.163": false,
+    "172.90.11.164": true,
+    "172.90.11.165": true,
+    "172.90.11.166": true,
+    "172.90.2.151": true,
+    "172.90.2.152": true,
+    "172.90.2.153": true,
+    "172.90.2.154": true,
+    "172.90.2.155": true,
+    "172.90.2.156": true,
+    "172.90.2.157": true,
+    "172.90.2.158": true,
+    "172.90.2.159": true,
+    "172.90.2.160": true,
+    "172.90.2.161": true,
+    "172.90.2.162": true,
+    "172.90.2.163": true,
+    "172.90.2.164": true,
+    "172.90.2.165": true,
+    "172.90.2.166": true,
+    "172.90.3.151": true,
+    "172.90.3.152": true,
+    "172.90.3.153": true,
+    "172.90.3.154": true,
+    "172.90.3.155": true,
+    "172.90.3.156": true,
+    "172.90.3.157": true,
+    "172.90.3.158": true,
+    "172.90.3.159": true,
+    "172.90.3.160": true,
+    "172.90.3.161": true,
+    "172.90.3.162": true,
+    "172.90.3.163": true,
+    "172.90.3.164": true,
+    "172.90.3.165": true,
+    "172.90.3.166": true,
+    "172.90.4.151": true,
+    "172.90.4.152": true,
+    "172.90.4.153": true,
+    "172.90.4.154": true,
+    "172.90.4.155": true,
+    "172.90.4.156": true,
+    "172.90.4.157": true,
+    "172.90.4.158": true,
+    "172.90.4.159": true,
+    "172.90.4.160": true,
+    "172.90.4.161": true,
+    "172.90.4.162": true,
+    "172.90.4.163": true,
+    "172.90.4.164": true,
+    "172.90.4.165": true,
+    "172.90.4.166": true,
+    "172.90.5.151": true,
+    "172.90.5.152": true,
+    "172.90.5.153": true,
+    "172.90.5.154": true,
+    "172.90.5.155": true,
+    "172.90.5.156": true,
+    "172.90.5.157": true,
+    "172.90.5.158": true,
+    "172.90.5.159": true,
+    "172.90.5.160": true,
+    "172.90.5.161": true,
+    "172.90.5.162": true,
+    "172.90.5.163": true,
+    "172.90.5.164": true,
+    "172.90.5.165": true,
+    "172.90.5.166": true,
+    "172.90.6.151": true,
+    "172.90.6.152": true,
+    "172.90.6.153": true,
+    "172.90.6.154": true,
+    "172.90.6.155": true,
+    "172.90.6.156": true,
+    "172.90.6.157": true,
+    "172.90.6.158": true,
+    "172.90.6.159": true,
+    "172.90.6.160": true,
+    "172.90.6.161": true,
+    "172.90.6.162": true,
+    "172.90.6.163": true,
+    "172.90.6.164": true,
+    "172.90.6.165": true,
+    "172.90.6.166": true,
+    "172.90.7.151": true,
+    "172.90.7.152": true,
+    "172.90.7.153": true,
+    "172.90.7.154": true,
+    "172.90.7.155": true,
+    "172.90.7.156": true,
+    "172.90.7.157": false,
+    "172.90.7.158": true,
+    "172.90.7.159": true,
+    "172.90.7.160": true,
+    "172.90.7.161": true,
+    "172.90.7.162": true,
+    "172.90.7.163": true,
+    "172.90.7.164": true,
+    "172.90.7.165": true,
+    "172.90.7.166": true,
+    "172.90.8.151": true,
+    "172.90.8.152": true,
+    "172.90.8.153": true,
+    "172.90.8.154": true,
+    "172.90.8.155": true,
+    "172.90.8.156": true,
+    "172.90.8.157": true,
+    "172.90.8.158": true,
+    "172.90.8.159": true,
+    "172.90.8.160": true,
+    "172.90.8.161": true,
+    "172.90.8.162": true,
+    "172.90.8.163": true,
+    "172.90.8.164": true,
+    "172.90.8.165": true,
+    "172.90.8.166": true,
+    "172.90.9.151": true,
+    "172.90.9.152": true,
+    "172.90.9.153": true,
+    "172.90.9.154": true,
+    "172.90.9.155": true,
+    "172.90.9.156": true,
+    "172.90.9.157": true,
+    "172.90.9.158": true,
+    "172.90.9.159": true,
+    "172.90.9.160": true,
+    "172.90.9.161": true,
+    "172.90.9.162": true,
+    "172.90.9.163": true,
+    "172.90.9.164": true,
+    "172.90.9.165": true,
+    "172.90.9.166": true
+  }
+}

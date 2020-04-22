@@ -1,0 +1,39 @@
+{
+  "high":
+  {
+    "vsftp" : false,
+    "php" : false,
+    "nginx" : false,
+    "swap_usage":80,
+    "mem_usage":90,
+    "cpu_load":90,
+    "cpu_usage":95,
+    "gpu_usage_1": 75,
+    "gpu_usage_2": 75,
+    "gpu_temp" : 95,
+    "disk_root_usage": 85,
+    "disk_cv_usage": 95
+  },
+  "destroy":
+  {
+    "camers_info":false,
+    "wellocean":false,
+    "redis" : false,
+    "mysql" : false,
+    "uwsgi": false,
+    "sender": false,
+    "result_send": false,
+    "hik": false,
+    "handle_plc": false,
+    "cpu_usage":90,
+    "mem_usage":90,
+    "gpu_usage_1": 90,
+    "gpu_usage_2": 90,
+    "gpu_temp" : 80,
+    "gpu_cuda_usage_1" : 95,
+    "gpu_cuda_usage_2" : 95,
+    "disk_root_usage": 95,
+    "disk_cv_usage": 95
+  },
+  "delayed": ["cpu_usage","cpu_load"]
+}
